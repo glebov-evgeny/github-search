@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/github-search/static/css/main.6ed18146.css",
+    "main.js": "/github-search/static/js/main.1b05a3b2.js",
+    "static/media/Roboto-BlackItalic.woff": "/github-search/static/media/Roboto-BlackItalic.65f2f623b88fefa3fe3e.woff",
+    "static/media/Roboto-LightItalic.woff": "/github-search/static/media/Roboto-LightItalic.7647ccb144fe42812063.woff",
+    "static/media/Roboto-MediumItalic.woff": "/github-search/static/media/Roboto-MediumItalic.28e505168e7ed04c6bae.woff",
+    "static/media/Roboto-BoldItalic.woff": "/github-search/static/media/Roboto-BoldItalic.24d270c04a21572bbba5.woff",
+    "static/media/Roboto-Italic.woff": "/github-search/static/media/Roboto-Italic.59bbaf592c62cb87ecc6.woff",
+    "static/media/Roboto-ThinItalic.woff": "/github-search/static/media/Roboto-ThinItalic.0f8cae2dc092ab9f2ba9.woff",
+    "static/media/Roboto-Medium.woff": "/github-search/static/media/Roboto-Medium.e624b10d53c919bd7496.woff",
+    "static/media/Roboto-Black.woff": "/github-search/static/media/Roboto-Black.a3513eaf0ad708fff3ca.woff",
+    "static/media/Roboto-Bold.woff": "/github-search/static/media/Roboto-Bold.9fa4a8113c081e9b3138.woff",
+    "static/media/Roboto-Regular.woff": "/github-search/static/media/Roboto-Regular.0944be1093c62cedb919.woff",
+    "static/media/Roboto-Light.woff": "/github-search/static/media/Roboto-Light.c981701f695c76440cb3.woff",
+    "static/media/Roboto-Thin.woff": "/github-search/static/media/Roboto-Thin.43cf5af8ceefc30114f7.woff",
+    "static/media/Roboto-BlackItalic.woff2": "/github-search/static/media/Roboto-BlackItalic.e26e5c4fde2ec3e5bf71.woff2",
+    "static/media/Roboto-MediumItalic.woff2": "/github-search/static/media/Roboto-MediumItalic.86d943cd3dc2a1ab6de7.woff2",
+    "static/media/Roboto-LightItalic.woff2": "/github-search/static/media/Roboto-LightItalic.8374b555761a39b1c5e7.woff2",
+    "static/media/Roboto-Italic.woff2": "/github-search/static/media/Roboto-Italic.89909ce653d7b6c0f12b.woff2",
+    "static/media/Roboto-BoldItalic.woff2": "/github-search/static/media/Roboto-BoldItalic.0a203fd6e3bba185629d.woff2",
+    "static/media/Roboto-ThinItalic.woff2": "/github-search/static/media/Roboto-ThinItalic.f476452e71e918ed9d9a.woff2",
+    "static/media/Roboto-Medium.woff2": "/github-search/static/media/Roboto-Medium.57b8a81c7519e4d6b555.woff2",
+    "static/media/Roboto-Black.woff2": "/github-search/static/media/Roboto-Black.cd5a79c185e92ebe6b94.woff2",
+    "static/media/Roboto-Bold.woff2": "/github-search/static/media/Roboto-Bold.b21da07c934a28b2fef3.woff2",
+    "static/media/Roboto-Regular.woff2": "/github-search/static/media/Roboto-Regular.9d43b86421e004e704b9.woff2",
+    "static/media/Roboto-Light.woff2": "/github-search/static/media/Roboto-Light.4ca616225439b353c722.woff2",
+    "static/media/Roboto-Thin.woff2": "/github-search/static/media/Roboto-Thin.8e9578cce5d551036e41.woff2",
+    "index.html": "/github-search/index.html",
+    "main.6ed18146.css.map": "/github-search/static/css/main.6ed18146.css.map",
+    "main.1b05a3b2.js.map": "/github-search/static/js/main.1b05a3b2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ed18146.css",
+    "static/js/main.1b05a3b2.js"
+  ]
+}
