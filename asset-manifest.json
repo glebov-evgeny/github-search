@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/github-search/static/css/main.6ed18146.css",
-    "main.js": "/github-search/static/js/main.1b05a3b2.js",
+    "main.css": "/github-search/static/css/main.54c29bd6.css",
+    "main.js": "/github-search/static/js/main.954d01c7.js",
     "static/media/Roboto-BlackItalic.woff": "/github-search/static/media/Roboto-BlackItalic.65f2f623b88fefa3fe3e.woff",
     "static/media/Roboto-LightItalic.woff": "/github-search/static/media/Roboto-LightItalic.7647ccb144fe42812063.woff",
     "static/media/Roboto-MediumItalic.woff": "/github-search/static/media/Roboto-MediumItalic.28e505168e7ed04c6bae.woff",
@@ -27,11 +27,11 @@
     "static/media/Roboto-Light.woff2": "/github-search/static/media/Roboto-Light.4ca616225439b353c722.woff2",
     "static/media/Roboto-Thin.woff2": "/github-search/static/media/Roboto-Thin.8e9578cce5d551036e41.woff2",
     "index.html": "/github-search/index.html",
-    "main.6ed18146.css.map": "/github-search/static/css/main.6ed18146.css.map",
-    "main.1b05a3b2.js.map": "/github-search/static/js/main.1b05a3b2.js.map"
+    "main.54c29bd6.css.map": "/github-search/static/css/main.54c29bd6.css.map",
+    "main.954d01c7.js.map": "/github-search/static/js/main.954d01c7.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ed18146.css",
-    "static/js/main.1b05a3b2.js"
+    "static/css/main.54c29bd6.css",
+    "static/js/main.954d01c7.js"
   ]
 }
