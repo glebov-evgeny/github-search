@@ -8,7 +8,7 @@ export function FavouritesPage(){
     return(
         <div className="favorites__box">
             { favourites.map(f => (
-                <a href={f} key={f}>{f}</a>
+                <a href={f} className="favorites__box-link" key={f}>{f}</a>
             )) }
         </div>
     )

@@ -361,7 +361,7 @@ select {
   }
   @media (min-width: 1200px) {
     padding: 0 6rem;
-    max-width: 115rem;
+    max-width: 70rem;
   }
 }
 .title{
@@ -374,20 +374,25 @@ select {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 4.5rem;
+  min-height: 4rem;
   border-radius: 1rem;
   &__link{
     font-size: 1.6rem;
     color: #fff;
     padding: 1rem;
     margin: 0 1rem;
+    &:hover{
+      transition: opacity .3s;
+      color: #fff;
+      opacity: .8;
+    }
   }
 }
 .main{
   &__search{
     position: relative;
     display: block;
-    max-width: 30rem;
+    width: 100%;
     margin: 2rem 0 0;
     &-input{
       display: flex;
@@ -396,12 +401,15 @@ select {
       width: 100%;
       min-height: 4rem;
       background: #fff;
-      color: black;
-      font-size: 1.4rem;
-      border-radius: 2rem;
+      font-size: 1.3rem;
+      color: #000;
+      border-radius: 1rem;
       border: 2px solid #eee;
       outline: none;
       padding: 0 2rem;
+      &::placeholder{
+        color: #494949;
+      }
     }
     &-dropdown{
       position: absolute;
@@ -409,9 +417,10 @@ select {
       left: 0;
       width: 100%;
       border-radius: 1rem;
-      max-height: 15rem;
+      max-height: 16.5rem;
       overflow-y: scroll;
       background: #fff;
+      border: 2px solid #eee;
     }
     &-option{
       cursor: pointer;
@@ -422,9 +431,85 @@ select {
       }
     }
   }
+
+  &__error,
+  &__loading {
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 2rem auto;
+    color: red;
+  }
+}
+
+.main__box{
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
 }
 
 .favorites__box{
   display: flex;
   flex-direction: column;
+  margin-top: 3rem;
+  &-link{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
+    border: 2px solid #eee;
+    margin-bottom: 1rem;
+    &:hover{
+      background: #eee;
+    }
+  }
+}
+
+.repo__card{
+  padding: 1rem;
+  border: 2px solid #eee;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  &-title{
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  &-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  &-text{
+    font-size: 1.3rem;
+    font-weight: bold;
+    width: 45%;
+    margin-bottom: 1rem;
+    span{
+      font-weight: normal;
+    }
+  }
+  &-description{
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+  &-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    max-width: 10rem;
+    min-height: 3.5rem;
+    font-size: 1.3rem;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: .5rem;
+    &._add{
+      background: chocolate;
+    }
+    &._remove{
+      background: rebeccapurple;
+    }
+  }
 }
